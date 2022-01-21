@@ -1,7 +1,38 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  color: white;
 }
+a {
+  text-decoration: none;
+}
+
 body {
-  background-color: yellow;
+  padding: 40px;
+  background-color: #191919;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.nav-bar {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar-info {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar-buttons {
+  display: flex;
+  justify-content: center;
+}
+.nav-bar-info-item {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
 }
