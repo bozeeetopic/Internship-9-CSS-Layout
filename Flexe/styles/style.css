@@ -68,3 +68,38 @@ nav {
 .stats-wrapper {
   border-left: solid orange 1px;
 }
+
+.distinguished-property {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.distinguished-property-text,
+.distinguished-property img {
+  width: 50%;
+}
+.distinguished-property-stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MORE-properties {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.MORE-properties h3,
+.MORE-properties-wrapper {
+  width: 50%;
+}
+.MORE-properties-item {
+  padding: 10px 0;
+  border-bottom: solid white 1px;
+  border-top: solid white 1px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.MORE-properties-item img {
+  padding: 60px;
+}
