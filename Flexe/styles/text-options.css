@@ -1,0 +1,15 @@
+.link-border {
+  border-bottom: dotted 1px;
+}
+.link-border:after {
+  border-bottom: solid 1px;
+  width: 0;
+}
+.link-border:after:hover {
+  border-bottom: solid 1px;
+  width: 100%;
+  transition: 2s;
+}
+.white {
+  color: white;
+}

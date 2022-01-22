@@ -9,6 +9,9 @@ p,
 a {
   color: white;
 }
+img {
+  width: 100%;
+}
 
 .black-body {
   padding: 40px;
@@ -36,7 +39,8 @@ nav {
 }
 .nav-bar-info-item {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
 }
 
@@ -52,6 +56,10 @@ nav {
   padding: 10px 0;
   border-bottom: solid white 1px;
   text-align: center;
+}
+.some-properties-header-item:first-child {
+  color: orange;
+  border-bottom: solid orange 1px;
 }
 .some-properties-body {
   display: flex;
@@ -72,7 +80,10 @@ nav {
 .distinguished-property {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 100px;
+  padding: 40px 0px 40px 40px;
+  background-color: #191919;
 }
 .distinguished-property-text,
 .distinguished-property img {
@@ -126,7 +137,6 @@ nav {
   margin-bottom: 100px;
   background-color: white;
   padding: 0 40px;
-  width: 100vw;
 }
 .latest-news p,
 .latest-news a {
@@ -160,6 +170,12 @@ nav {
 .footer-item a,
 .footer-item p {
   width: 100%;
+}
+.footer-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .footer-bottom {
   display: flex;
