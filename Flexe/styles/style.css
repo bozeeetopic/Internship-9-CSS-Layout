@@ -103,3 +103,76 @@ nav {
 .MORE-properties-item img {
   padding: 60px;
 }
+
+.remote-posts {
+  margin-bottom: 100px;
+}
+.remote-posts-header {
+  display: flex;
+  justify-content: space-between;
+}
+.remote-posts-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.remote-posts-item {
+  border-left: solid orange 1px;
+  width: 25%;
+}
+
+.latest-news {
+  margin-bottom: 100px;
+  background-color: white;
+  padding: 0 40px;
+  width: 100vw;
+}
+.latest-news p,
+.latest-news a {
+  color: black;
+}
+.latest-news-header {
+  display: flex;
+  justify-content: space-between;
+}
+.latest-news-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.latest-news-item {
+  border-left: solid orange 1px;
+  width: 25%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-item {
+  width: 14%;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.footer-item a,
+.footer-item p {
+  width: 100%;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
