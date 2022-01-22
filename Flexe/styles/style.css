@@ -13,11 +13,11 @@ a {
 img {
   width: 100%;
 }
-
 .black-body {
   padding: 40px;
   background-color: var(--black-bg);
 }
+
 
 nav {
   display: flex;
@@ -48,6 +48,7 @@ nav a,
 nav button {
   font-size: 16px;
 }
+
 
 .some-properties-header {
   display: flex;
@@ -107,6 +108,7 @@ nav button {
   width: fit-content;
 }
 
+
 .distinguished-property {
   display: flex;
   justify-content: space-between;
@@ -125,6 +127,7 @@ nav button {
 .distinguished-property p {
   padding: 10px 30px;
 }
+
 
 .MORE-properties {
   display: flex;
@@ -151,12 +154,14 @@ nav button {
   padding: 10px 30px;
 }
 
-.remote-posts {
-}
+
 .remote-posts-header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
+}
+.remote-posts-header a {
+  height: fit-content;
 }
 .remote-posts-wrapper {
   display: flex;
@@ -183,6 +188,7 @@ nav button {
   width: 100%;
 }
 
+
 .latest-news {
   background-color: var(--white);
   padding: 40px;
@@ -195,6 +201,9 @@ nav button {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
+}
+.latest-news-header a {
+  height: fit-content;
 }
 .latest-news-wrapper {
   display: flex;
@@ -218,8 +227,10 @@ nav button {
   padding-bottom: 0;
 }
 
+
 footer {
   padding: 40px;
+  font-size: 14px;
 }
 footer img {
   margin-left: -10px;
@@ -251,6 +262,7 @@ footer img {
   width: 100%;
   display: flex;
   flex-direction: row;
+  align-items: center;
   flex-wrap: wrap;
 }
 .footer-buttons a {

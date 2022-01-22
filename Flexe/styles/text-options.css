@@ -9,6 +9,7 @@
   --button-click: #432706;
 }
 
+
 .link-border {
   border-bottom: dotted 1px;
   display: inline-block;
@@ -24,11 +25,6 @@
 .link-border:hover:after {
   width: 100%;
 }
-.gray {
-  color: var(--gray-text);
-  border-color: var(--gray-text);
-}
-
 .turn-orange:hover {
   border-color: var(--orange-bg);
   color: var(--orange-text);
@@ -36,6 +32,24 @@
 .turn-orange:hover p {
   color: var(--orange-text);
 }
+.turn-gray:hover {
+  border-color: var(--gray-text);
+  color: var(--white);
+  background-color: var(--gray-text);
+}
+.turn-gray:hover p {
+  color: var(--white);
+}
+.turn-brown:hover {
+  border-color: var(--button-click);
+  color: var(--white);
+  background-color: var(--button-click);
+}
+.turn-brown:hover p {
+  color: var(--white);
+}
+
+
 .p14 {
   font-size: 14px;
 }
@@ -51,3 +65,47 @@
 .p20 {
   font-size: 20px;
 }
+.p45 {
+  font-size: 45px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.p60 {
+  font-size: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.p30 {
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.p25 {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+.button {
+  border-radius: 12px;
+  padding: 5px 15px;
+}
+.sign-in {
+  transition: all ease-in-out 0.5s;
+  background-color: var(--black-bg);
+  border: solid 1px var(--white);
+  color: var(--white);
+}
+.contact-us {
+  transition: all ease-in-out 0.5s;
+  background-color: var(--white);
+  border: solid 1px var(--white);
+  color: var(--black);
+  height: fit-content;
+}
+.orange {
+  transition: all ease-in-out 0.5s;
+  background-color: var(--orange-bg);
+  color: var(--black);
+}
+.gray {
+    color: var(--gray-text);
+    border-color: var(--gray-text);
+  }
