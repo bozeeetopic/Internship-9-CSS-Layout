@@ -1,15 +1,53 @@
+:root {
+  --white: white;
+  --gray-text: #a4abb4;
+  --black: black;
+  --black-bg: #191919;
+  --orange-text: #b07724;
+  --orange-bg: #cf8c29;
+  --weird-green: #373a25;
+  --button-click: #432706;
+}
+
 .link-border {
   border-bottom: dotted 1px;
+  display: inline-block;
 }
 .link-border:after {
+  transition: all ease-in-out 0.5s;
   border-bottom: solid 1px;
+  display: block;
+  content: "";
+  margin-bottom: -1px;
   width: 0;
 }
-.link-border:after:hover {
-  border-bottom: solid 1px;
+.link-border:hover:after {
   width: 100%;
-  transition: 2s;
 }
-.white {
-  color: white;
+.gray {
+  color: var(--gray-text);
+  border-color: var(--gray-text);
+}
+
+.turn-orange:hover {
+  border-color: var(--orange-bg);
+  color: var(--orange-text);
+}
+.turn-orange:hover p {
+  color: var(--orange-text);
+}
+.p14 {
+  font-size: 14px;
+}
+.p16 {
+  font-size: 16px;
+}
+.p18 {
+  font-size: 18px;
+}
+.p12 {
+  font-size: 12px;
+}
+.p20 {
+  font-size: 20px;
 }
