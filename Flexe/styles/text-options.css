@@ -9,7 +9,9 @@
   --button-click: #432706;
 }
 
-
+.link-parent:hover .link-border:after {
+  width: 100%;
+}
 .link-border {
   border-bottom: dotted 1px;
   display: inline-block;
@@ -99,9 +101,12 @@
   border: solid 1px var(--white);
   color: var(--black);
   height: fit-content;
+  margin-left: 10px;
+  margin-right: 5px;
 }
 .orange {
   transition: all ease-in-out 0.5s;
+  border: solid 1px var(--orange-bg);
   background-color: var(--orange-bg);
   color: var(--black);
 }
