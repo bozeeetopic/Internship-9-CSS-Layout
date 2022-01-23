@@ -1,6 +1,7 @@
 :root {
   --white: white;
   --gray-text: #a4abb4;
+  --gray-highlight: #7e838a;
   --black: black;
   --black-bg: #191919;
   --orange-text: #b07724;
@@ -27,12 +28,18 @@
 .link-border:hover:after {
   width: 100%;
 }
+.turn-orange{
+  transition: all .5s ease-in-out;
+}
 .turn-orange:hover {
   border-color: var(--orange-bg);
   color: var(--orange-text);
 }
 .turn-orange:hover p {
   color: var(--orange-text);
+}
+.turn-gray{
+  transition: all .5s ease-in-out;
 }
 .turn-gray:hover {
   border-color: var(--gray-text);
@@ -42,6 +49,9 @@
 .turn-gray:hover p {
   color: var(--white);
 }
+.turn-brown{
+  transition: all .5s ease-in-out;
+}
 .turn-brown:hover {
   border-color: var(--button-click);
   color: var(--white);
@@ -50,7 +60,26 @@
 .turn-brown:hover p {
   color: var(--white);
 }
-
+.turn-white{
+  transition: all .5s ease-in-out;
+}
+.turn-white:hover {
+  border-color: var(--white);
+  color: var(--white);
+}
+.turn-white:hover p {
+  color: var(--white);
+}
+.turn-grayer{
+  transition: all .5s ease-in-out;
+}
+.turn-grayer:hover {
+  color: var(--gray-highlight);
+}
+.turn-grayer:hover p,
+.turn-grayer:hover i {
+  color: var(--gray-highlight);
+}
 
 .p14 {
   font-size: 14px;
@@ -84,10 +113,9 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-
 .button {
-  border-radius: 12px;
-  padding: 5px 15px;
+  border-radius: 15px;
+  padding: 5px 20px;
 }
 .sign-in {
   transition: all ease-in-out 0.5s;
@@ -109,8 +137,9 @@
   border: solid 1px var(--orange-bg);
   background-color: var(--orange-bg);
   color: var(--black);
+  margin: 25px 0;
 }
 .gray {
-    color: var(--gray-text);
-    border-color: var(--gray-text);
-  }
+  color: var(--gray-text);
+  border-color: var(--gray-text);
+}
